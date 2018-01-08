@@ -1,0 +1,17 @@
+Con git init :inicio proyecto
+Con git add "Nombre del archivo" : Añadimos el archivo para el proximo commit
+Con git commmit -m "Este es el mesaje de commit"
+Con git add .:añado todo
+Con git diff : reviso los cambios hechos despues de añadir ver la diferencia
+Con git diff "Nombre de commit1" "Nombre de commit2": muestra las diferencias en codigo
+Con git diff HEAD-1:muestra los cambios entre el head y los dos commit anterior
+Con git checkout -- Nombre del archivo : puedo volver a la version antes del commit asi haya guardado el archivo
+Con git reset HEAD Nombre del archivo :puedo resetear antes del commit que haya hecho y asi con git checkout restablecer la version 
+Con git log :listo los cambios que he hecho
+Con git commit --amend:podemos perdir a git qe meta algo antes de el commit ya hecho para guardar y salir le damos enter hasta abajo y luego :wq (guardar y salir en editor de texto)
+Con git log --oneline : ver los commit con mensaje ordenados
+Con git reset "Codigo del commit" : eliminamos un commit volvemos al commit anterior y podemos hacr un checkout 
+Con git reset --hard "Nombre del commit" : se elimina todo el commit 
+Con git revert "Nombre del commit": eliminamos los dos commits 
+Con git revert --no-commit "Nmbre del commit o HEAD~1": Deshace los cambios realizados y vuelve a el commit anterior  este
+Con git revert --continue : Termina de hacer la revercion y creea otro commit que con nombre Revert"Comit a donde queria ir"
